@@ -1,0 +1,322 @@
+/*
+Grocery shop -- default css
+author: jashim uddin
+version: 1.0.0
+description: Simple grocery shop with html and css 
+*/
+
+/*default css for template */
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body{
+	font-family: verdana;
+	font-size: 12px;
+	line-height: 16px;
+}
+.clear{ 
+	overflow: hidden; 
+}
+.template{ 
+	width: 1000px; 
+	margin: 0 auto;; 
+	
+}
+a{
+	color: #000;
+	font-weight: bold;
+	text-decoration: none; 
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+p {
+	margin-bottom: 15px;
+}
+
+/*custom css */
+
+.header{
+    height: 89px;
+    background: cadetblue;
+}
+
+.header-top {
+	margin-bottom: 5px;
+	height: 40px;
+	border-bottom: 1px solid aliceblue;
+	padding: 5px;
+}
+.head-left {
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 5px;
+	float: left;
+}
+.head-left h2 {
+	font-family: Ubuntu;
+	font-size: 25px;
+	border-right: 1px solid;
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	padding: 5px;
+}
+.head-left p {
+	float: left;
+	margin-right: 10px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.head-right {
+	width: 325px;
+	margin-left: 20px;
+	margin-top: 5px;
+	float: right;
+}
+.head-right input[type="text"] {
+	margin-right: 10px;
+	background: grey;
+	color: white;
+}
+.head-right input[type=submit]{
+
+}
+.header-bottom {
+	/*/* border-top: 1px solid grey; */
+	/* height: 9px; */
+	/*padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;*/
+}
+.menu-left {
+	float: left;
+	/* margin-top: 4px; */
+	/* padding: 0px; */
+	/* margin-right: 4px; */
+	/* height: 20px; */
+	width: 500px;
+	margin-left: 44px;
+}
+.menu-left ul {
+	/*border-right: 1px solid grey;*/
+}
+.menu-left ul li {
+	list-style-type: none;
+	display: inline;
+	border-right: 1px solid aliceblue;
+	padding: 5px;
+	margin: 10px auto;
+}
+
+.menu-left ul li:last-child{
+	border-right: 0px solid aliceblue;
+}
+
+.menu-left ul li a {
+	font-family: Ubuntu;
+	font-size: 15px;
+}
+.menu-left ul li a:hover{}
+
+.menu-right{
+	float: right;
+	width: 400px;
+	margin-right: 5px;
+	height: 20px;
+}
+.menu-right p {
+	float: left;
+	line-height: 0px;
+	margin-right: 5px;
+	padding: 5px;
+	color: aliceblue;
+	font-size: 13px;
+}
+
+
+/* Banner Section */
+
+.banner{
+	height: 340px;
+}
+.left-banner {
+	width: 500px;
+	border: 1px solid grey;
+	margin-top: 5px;
+	padding: 5px;
+	float: left;
+	background: gainsboro;
+	border-radius: 6px;
+	height: 300px;
+}
+.left-banner h2 {
+	font-family: Ubuntu;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+	padding: 5px;
+	margin-bottom: 5px;
+	color: crimson;
+}
+.left-banner p{
+	padding: 5px;
+	margin: 5px;
+	font-family: "Ubuntu Mono";
+}
+
+.right-banner {
+	width: 460px;
+	border: 1px solid grey;
+	margin-top: 5px;
+	padding: 5px;
+	float: left;
+	border-radius: 6px;
+	margin-left: 16px;
+}
+.right-banner img {
+	height: 296px;
+	width: 457px;
+}
+
+.left-banner input[type="submit"] {
+	margin: 20px 45px 40px 45px;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	background: cadetblue;
+	color: #ad1d0ccc;
+	font-family: "Ubuntu Mono";
+}
+
+
+
+/*service section*/
+
+.service{
+	height: 170px;
+}
+.service1 {
+	float: left;
+	border: 1px solid red;
+	border-radius: 6px;
+	width: 243px;
+	margin-right: 5px;
+}
+.service1 h2 {
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 16px;
+	text-decoration: underline;
+	padding: 4px;
+	margin: 2px;
+}
+.service1 p {
+	font-family: "Ubuntu Mono"
+	font-size:15px;
+	padding: 5px;
+	margin: 2px;
+}
+
+
+
+/*service section ended*/
+
+
+
+
+/*footer section*/
+.footer{
+	height: 200px;
+	background: grey;
+	border-radius: 6px;
+}
+
+.footer-left {
+	width: 467px;
+	border-right: 1px solid #18b5d7;
+	margin-right: 10px;
+	padding: 10px;
+	float: left;
+	margin-top: 8px;
+}
+.footer-left h2{
+	text-align: center;
+	color: hotpink;
+	font-family: Ubuntu;
+	padding: 10px;
+	margin-top: 5px;
+	text-decoration: underline;
+	color: ghostwhite;
+}
+
+.footer-left ul{
+	margin-left: 50px;
+}
+.footer-left ul li {
+	list-style-type: none;
+	text-decoration: none;
+}
+.footer-left ul li a {
+	font-family: Ubuntu;
+	font-size: 16px;
+	line-height: 23px;
+	padding: 5px;
+	margin: 5px;
+}
+.footer-right {
+	float: left;
+	width: 400px;
+	padding: 20px;
+	
+}
+
+.footer-right h2 {
+	font-family: Ubuntu;
+	margin-top: 5px;
+	text-align: center;
+	text-decoration: underline;
+	color: ghostwhite;
+}
+.footer-right p {
+	font-family: "Ubuntu Mono";
+	padding: 5px;
+	margin: 14px;
+}
+
+.footer-right address {
+	font-family: "Ubuntu Mono";
+	margin: 5px;
+	padding: 4px;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 18px;
+}
+
+
+.copyright {
+	background: grey;
+	height: 30px;
+	/* margin-top: 40px; */
+	float: left;
+	width: 100%;
+	border-radius: 2px;
+}
+
+.copyright h2{
+	text-align: center;
+	font-family: "Ubuntu Mono";
+	margin-top: 10px;
+}
+
+/*footer section end*/
