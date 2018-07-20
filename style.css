@@ -41,6 +41,7 @@ h2,h3,h4,h5,h6 {
 }
 p {
 	margin-bottom: 15px;
+	font-size: 14px;
 }
 
 /*custom css */
@@ -93,11 +94,7 @@ p {
 
 }
 .header-bottom {
-	/*/* border-top: 1px solid grey; */
-	/* height: 9px; */
-	/*padding: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;*/
+	
 }
 .menu-left {
 	float: left;
@@ -116,7 +113,7 @@ p {
 	display: inline;
 	border-right: 1px solid aliceblue;
 	padding: 5px;
-	margin: 10px auto;
+	margin-right: 10px;
 }
 
 .menu-left ul li:last-child{
@@ -169,10 +166,28 @@ p {
 	margin-bottom: 5px;
 	color: crimson;
 }
-.left-banner p{
+.left-banner p {
 	padding: 5px;
-	margin: 5px;
 	font-family: "Ubuntu Mono";
+
+}
+
+
+.left-banner a {
+	/* margin: 21px 46px 37px 23px; */
+	padding: 10px 14px;
+	border-radius: 50px;
+	border: none;
+	background: cadetblue;
+	color: #ad1d0ccc;
+	font-family: "Ubuntu Mono";
+	text-decoration: none;
+	margin-left: 23px;
+}
+
+.left-banner a:hover {
+	color: black;
+	background-color: hotpink;
 }
 
 .right-banner {
@@ -189,22 +204,14 @@ p {
 	width: 457px;
 }
 
-.left-banner input[type="submit"] {
-	margin: 20px 45px 40px 45px;
-	padding: 10px;
-	border-radius: 10px;
-	border: none;
-	background: cadetblue;
-	color: #ad1d0ccc;
-	font-family: "Ubuntu Mono";
-}
+
 
 
 
 /*service section*/
 
 .service{
-	height: 170px;
+	height: 300px;
 }
 .service1 {
 	float: left;
@@ -221,8 +228,15 @@ p {
 	padding: 4px;
 	margin: 2px;
 }
+
+.service1 img {
+	width: 120px;
+	height: 120px;
+	margin: 0px 50px;
+}
+
 .service1 p {
-	font-family: "Ubuntu Mono"
+	font-family: "Ubuntu Mono";
 	font-size:15px;
 	padding: 5px;
 	margin: 2px;
@@ -236,10 +250,11 @@ p {
 
 
 /*footer section*/
-.footer{
+.footer {
 	height: 200px;
 	background: grey;
 	border-radius: 6px;
+	margin-top: 5px;
 }
 
 .footer-left {
@@ -273,6 +288,7 @@ p {
 	line-height: 23px;
 	padding: 5px;
 	margin: 5px;
+	color: #670032;
 }
 .footer-right {
 	float: left;
